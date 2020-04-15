@@ -21,6 +21,9 @@ defmodule Upsert.MixProject do
 
   # Run "mix help deps" to learn about dependencies.
   defp deps do
-    []
+    [
+      {:postgrex, ">= 0.0.0"},
+      {:ecto_sql, "~> 3.0"}
+    ]
   end
 end
